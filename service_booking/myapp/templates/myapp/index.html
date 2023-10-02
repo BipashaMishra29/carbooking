@@ -1,0 +1,361 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="{% static 'myapp/images/fevicon.png' %}" type="image/gif" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Motora</title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="{% static 'myapp/css/bootstrap.css' %}" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- font awesome style -->
+  <link href="{% static 'myapp/css/font-awesome.min.css' %}" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'myapp/css/style.css' %}" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="{% static 'myapp/css/responsive.css'%}" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <!-- header section strats -->
+  {% include './header.html' %}
+  <!-- end header section -->
+  <!-- slider section -->
+  <section class="slider_section ">
+    <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container ">
+            <div class="row">
+              <div class="col-md-6 col-lg-5">
+                <div class="detail-box">
+                  <h1>
+                    Car Repair <br>
+                    And Maintenance
+                  </h1>
+                  <p>
+                    Whether you’re a passionate driveway DIY-er or a recent trip to a mechanic has left you baffled, our car care and maintenance glossary can help you brush up on your knowledge of common car maintenance terms, and diagnose underlying problems.</p>
+                 
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-7">
+                <div class="img-box">
+                  <img src="{% static 'myapp/images/slider-img.png' %}" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container ">
+            <div class="row">
+              <div class="col-md-6 col-lg-5">
+                <div class="detail-box">
+                  <h1>
+                    Car Repair <br>
+                    And Maintenance
+                  </h1>
+                  <p>
+                    <b>The 10 basic terms your car maintenance wants you to know ·</b> <br>
+                    1. Oil Filter · <br>
+                    2. Distributor ·<br> 
+                    3. Brake fluid ·<br>
+                    4. Radiator · <br>
+                    5. Tune-up ·<br>
+                    6. DIPSTICK ·<br> 
+                    7. SPARK PLUG ·<br>
+                    8. [BATTERY] CORROSION<br>
+                    9. BRAKE PAD<br>
+                    10. TIMING BELT<br>
+                   </p>
+                  
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-7">
+                <div class="img-box">
+                  <img src="{% static 'myapp/images/slider-img.png'%}" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container ">
+            <div class="row">
+              <div class="col-md-6 col-lg-5">
+                <div class="detail-box">
+                  <h1>
+                    Car Repair <br>
+                    And Maintenance
+                  </h1>
+                  <p>
+                    <b>The maintenance of vehicle:</b><br>
+                    Vehicle maintenance and servicing is carried out when the vehicle completes certain kilometres on its normal running or when the vehicle does not give proper performance. It is suggested that the vehicle owners carry out regular and periodical checks on their vehicle, some of which are mentioned below. </p>
+                  
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-7">
+                <div class="img-box">
+                  <img src="{% static 'myapp/images/slider-img.png' %}" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ol class="carousel-indicators">
+        <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+        <li data-target="#customCarousel1" data-slide-to="1"></li>
+        <li data-target="#customCarousel1" data-slide-to="2"></li>
+      </ol>
+    </div>
+  </section>
+  <!-- end slider section -->
+
+  <!-- service section -->
+
+  <section class="service_section ">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Our Services
+        </h2>
+      </div>
+    </div>
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{% static 'myapp/images/s1.png' %}" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                General Maintenance
+              </h4>
+              <p>
+                For those who want to acquaint themselves with the basics of car maintenance, we suggest you take a look at the following car maintenance tips for beginners. Carrying out these car care tips will help you maintain your vehicle without burning a large hole in your pocket.
+              </p>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{% static 'myapp/images/s2.png' %}" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Repair and Replacement
+              </h4>
+              <p>
+                Repairs and Replacement means all non-routine, non-repetitive activities, repairs or replacement of structures, machinery or equipment required for continuity of operations, safety, and operating performance that are necessary to prevent or correct a failure of the Pelletier Facility and which are not included as part ...
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 ">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{% static 'myapp/images/s3.png' %}" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Tire Repair and Replacement
+              </h4>
+              <p>
+              You can’t ignore tread punctures or penetrations because they can cause irreversible tire damage. At the same time, an improper repair can damage the tire . Only punctures in the tread area less than ¼” in diameter may be potentially repaired and returned to service. 
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{% static 'myapp/images/s4.png' %}" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Wheel Alignment
+              </h4>
+              <p>
+                Wheel alignment involves a mechanical adjustment of vehicle suspension to influence the direction and angle of the tyre's contact with the road surface. The optimum alignment for each make and model of vehicle is set by the manufacturer in order to influence the performance and handling. 
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{% static 'myapp/images/s5.png' %}" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Fuel System Repair
+              </h4>
+              <p>
+                A fuel system helps deliver fuel from the tank to the engine. It consists of a fuel pump, fuel lines, a fuel-pressure regulator, fuel filters and fuel injectors.
+                By sending the fuel to the engine, the tank sends fuel to the fuel lines. The fuel lines from the tank to the engine from combustion. 
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{% static 'myapp/images/s6.png' %}" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Tune Up
+              </h4>
+              <p>
+                Regular vehicle maintenance is one of the best ways to protect your investment; performing a tune-up will extend the life of your vehicle. Check out our guide to see a few ways you can get your ride back in tune.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container  ">
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="{% static 'myapp/images/about-img.png' %}" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                About Us
+              </h2>
+            </div>
+            <p>
+              We offer a full range of garage services to vehicle owners located in Tucson area. All mechanic services are performed by highly qualified mechanics. We can handle any car problem.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- info section -->
+
+  <section class="info_section ">
+    <div class="info_container ">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="info_contact ">
+              <div class="row">
+                <div class="col-md-3">
+                  <a href="#" class="link-box">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <span>
+                      Location
+                    </span>
+                  </a>
+                </div>
+                <div class="col-md-5">
+                  <a href="#" class="link-box">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <span>
+                      Call +01 1234567890
+                    </span>
+                  </a>
+                </div>
+                <div class="col-md-4">
+                  <a href="#" class="link-box">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <span>
+                      motora@gmail.com
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5  col-lg-3 mx-auto">
+            <div class="info_form ">
+              <form action="#">
+                <input type="email" placeholder="Enter Your Email" />
+                <button>
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="info_logo">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Motora
+            </span>
+          </a>
+        </div>
+        <div class="social-box">
+          <a href="">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-youtube" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  
+
+  <!-- jQery -->
+  <script src="{% static 'myapp/js/jquery-3.4.1.min.js' %}"></script>
+  <!-- bootstrap js -->
+  <script src="{% static 'myapp/js/bootstrap.js'%}"></script>
+  <!-- custom js -->
+  <script src="{% static 'myapp/js/custom.js' %}"></script>
+
+
+</body>
+
+</html>

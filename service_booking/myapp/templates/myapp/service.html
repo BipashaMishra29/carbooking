@@ -1,0 +1,243 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="{% static 'myapp/images/fevicon.png' %}" type="image/gif" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Motora</title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="{% static 'myapp/css/bootstrap.css' %}" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- font awesome style -->
+  <link href="{% static 'myapp/css/font-awesome.min.css' %}" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'myapp/css/style.css' %}" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="{% static 'myapp/css/responsive.css'%}" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <!-- header section strats -->
+  {% include './header.html' %}
+  <!-- end header section -->
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Our Services
+        </h2>
+      </div>
+    </div>
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{% static 'myapp/images/s1.png' %}" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                General Maintenance
+              </h4>
+              <p>
+                For those who want to acquaint themselves with the basics of car maintenance, we suggest you take a look at the following car maintenance tips for beginners. Carrying out these car care tips will help you maintain your vehicle without burning a large hole in your pocket.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{% static 'myapp/images/s2.png'%}" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Repair and Replacement
+              </h4>
+              <p>
+                Repairs and Replacement means all non-routine, non-repetitive activities, repairs or replacement of structures, machinery or equipment required for continuity of operations, safety, and operating performance that are necessary to prevent or correct a failure of the Pelletier Facility and which are not included as part ...
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 ">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{% static 'myapp/images/s3.png' %}" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Tire Repair and Replacement
+              </h4>
+              <p>
+                You can’t ignore tread punctures or penetrations because they can cause irreversible tire damage. At the same time, an improper repair can damage the tire . Only punctures in the tread area less than ¼” in diameter may be potentially repaired and returned to service.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{% static 'myapp/images/s4.png' %}" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Wheel Alignment
+              </h4>
+              <p>
+                Wheel alignment involves a mechanical adjustment of vehicle suspension to influence the direction and angle of the tyre's contact with the road surface. The optimum alignment for each make and model of vehicle is set by the manufacturer in order to influence the performance and handling.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{% static 'myapp/images/s5.png' %}" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Fuel System Repair
+              </h4>
+              <p>
+                A fuel system helps deliver fuel from the tank to the engine. It consists of a fuel pump, fuel lines, a fuel-pressure regulator, fuel filters and fuel injectors. By sending the fuel to the engine, the tank sends fuel to the fuel lines. The fuel lines from the tank to the engine from combustion.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{% static 'myapp/images/s6.png' %}" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Tune Up
+              </h4>
+              <p>
+                Regular vehicle maintenance is one of the best ways to protect your investment; performing a tune-up will extend the life of your vehicle. Check out our guide to see a few ways you can get your ride back in tune.
+
+              </p>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+
+  <!-- info section -->
+
+  <section class="info_section ">
+    <div class="info_container ">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="info_contact ">
+              <div class="row">
+                <div class="col-md-3">
+                  <a href="#" class="link-box">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <span>
+                      Location
+                    </span>
+                  </a>
+                </div>
+                <div class="col-md-5">
+                  <a href="#" class="link-box">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <span>
+                      Call +01 1234567890
+                    </span>
+                  </a>
+                </div>
+                <div class="col-md-4">
+                  <a href="#" class="link-box">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <span>
+                      motora@gmail.com
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5  col-lg-3 mx-auto">
+            <div class="info_form ">
+              <form action="#">
+                <input type="email" placeholder="Enter Your Email" />
+                <button>
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="info_logo">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Motora
+            </span>
+          </a>
+        </div>
+        <div class="social-box">
+          <a href="">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-youtube" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+ 
+
+  <!-- jQery -->
+  <script src="{% static 'myapp/js/jquery-3.4.1.min.js' %}"></script>
+  <!-- bootstrap js -->
+  <script src="{% static 'myapp/js/bootstrap.js'%}"></script>
+  <!-- custom js -->
+  <script src="{% static 'myapp/js/custom.js' %}"></script>
+
+
+</body>
+
+</html>
